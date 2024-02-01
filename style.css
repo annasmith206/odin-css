@@ -1,34 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1F2937;;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
-    background-color: #1F2937;
     flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px 15%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
 }
 
 .section-1 {
     background-color: #1F2937;
+    padding: 10px 15%;
     flex: 1;
 }
 
 .section-2 {
+    background-color: white;
     flex: 1;
+    padding: 10px 15%;
 }
 
 .section-3 {
     background-color: #E5E7EB;
     flex: 1;
+    padding: 10px 15%;
 }
 
 .section-4 {
+    background-color: white;
     flex: 1;
+    padding: 10px 15%;
 }
 
 .footer {
-    background-color: #1F2937;
     flex-shrink: 0;
+    padding: 10px 15%;
 }
