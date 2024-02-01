@@ -6,12 +6,12 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #1F2937;;
+    background-color: #1F2937;
 }
 
 .header {
-    flex-shrink: 0;
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     padding: 10px 15%;
     gap: 20px;
@@ -25,11 +25,11 @@ body {
 }
 
 .section-1 {
+    display: flex;
     background-color: #1F2937;
-    padding: 0 15%;
+    padding: 20px 15%;
     padding-top: 40px;
     flex: auto;
-    display: flex;
     gap: 20px;
     color: #F9FAF8;
 
@@ -68,7 +68,40 @@ body {
 .section-2 {
     background-color: white;
     flex: auto;
-    padding: 10px 15%;
+    padding: 0px 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title-text {
+        font-weight: bold;
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        li {
+            max-width: 125px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+
+            img {
+                max-width: 125px;
+                height: auto;
+                border: #1F2937 solid 5px;
+                border-radius: 5px;
+            }
+        }
+        
+    }
 }
 
 .section-3 {
@@ -86,10 +119,6 @@ body {
 .footer {
     flex-shrink: 0;
     padding: 10px 15%;
-}
-
-* {
-    border: gray solid 1px;
 }
 
 ul {
