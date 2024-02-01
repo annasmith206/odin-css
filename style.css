@@ -46,13 +46,6 @@ body {
             color: #F9FAF8;
         }
 
-        .sign-up-button {
-            background-color: #3882F6;
-            padding: 5px 20px;
-            border-radius: 5px;
-            font-size: 12px;
-            font-weight: bold;
-        }
     }
 
     .about-image {
@@ -131,11 +124,36 @@ body {
     background-color: white;
     flex: auto;
     padding: 10px 15%;
+
+    .bubble {
+        margin: 70px 0px;
+        padding: 30px 50px;
+        border-radius: 5px;
+        background-color: #3882F6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title-text {
+            font-weight: bold;
+            color: white;
+        }
+
+        .subtext {
+            color: rgb(216, 216, 216);
+        }
+
+        .sign-up-button {
+            border: white solid 2px;
+        }
+    }
 }
 
 .footer {
     flex-shrink: 0;
-    padding: 10px 15%;
+    color: white;
+    text-align: center;
+    padding: 20px 15%;
 }
 
 ul {
@@ -147,4 +165,13 @@ ul {
 .subtext {
     font-size: 12px;
     color: #a8abb0;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
 }
